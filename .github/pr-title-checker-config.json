@@ -1,0 +1,14 @@
+{
+    "LABEL": {
+        "name": "Wrong PR name",
+        "color": "ec8400"
+    },
+    "CHECKS": {
+        "regexp": "[A-Z]{2,5}-[0-9]{1,5}"
+    },
+    "MESSAGES": {
+        "success": "All OK",
+        "failure": "Failing PR test",
+        "notice": "Please check the naming convention rules for naming PRs"
+    }
+}
