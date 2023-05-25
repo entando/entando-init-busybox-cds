@@ -9,3 +9,5 @@ Repository to manage the configuration of the CDS init container based on busybo
 | ARCHIVE_NAME | entando720.tar.gz | The name of the archive containing all the Entando static resources |
 | FORCE_CDS | false | Needed to force the overwriting of the volume | 
 
+
+
