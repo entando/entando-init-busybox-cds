@@ -10,6 +10,7 @@ Repository to manage the configuration of the CDS init container based on busybo
 | FORCE_CDS | false                                                          | Needed to force the overwriting of the volume | 
 | PAUSE   | false                                                          | Used to stop the init-container execution for a specified amount of time | SUSPEND_TIME |     | Pause for number
 | PAUSE_TIME |                                                                | Pause for number seconds(default value). `s[default], m, h, d` can be specified as suffix to express:                  |
+| SKIP_INIT | false | Skip initialization - no data is copied inside the `/entando-data` path |
 
 - **3s** -> 3 seconds
 - **3m** -> 3 minutes
